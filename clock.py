@@ -14,7 +14,7 @@ for i in range(61):
         nums[i].append([int(j), int(i)-int(j)])
 index=random.randint(0,intTime[0]-1)
 mindex=random.randint(0,intTime[1]-1)
-print(nums[intTime[0]][index][0], "+", nums[intTime[0]][index][1], ":", nums[intTime[1]][mindex][0], "+", nums[intTime[1]][mindex][1])
+print(nums[intTime[0]][index][0], "+", nums[intTime[0]][index][1], ":", nums[intTime[1]][mindex][0], "+", nums[intTime[1]][mindex][1],  end='\r')
 #print(currentTime, end='\r')
 while True:
     t = time.localtime()
@@ -34,4 +34,4 @@ while True:
     if x:
         pass
     else:
-        print(nums[intNewTime[0]][index][0], "+", nums[intNewTime[0]][index][1], ":", nums[intNewTime[1]][mindex][0], "+", nums[intNewTime[1]][mindex][1])
+        print(nums[intNewTime[0]][index][0], "+", nums[intNewTime[0]][index][1], ":", nums[intNewTime[1]][mindex][0], "+", nums[intNewTime[1]][mindex][1], end='\r')
