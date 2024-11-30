@@ -5,5 +5,3 @@ purpose:
 how to use:
 	
 	> run in terminal
-todo:
-	> set up so that time rewrites existing line rather than printing on new line 
