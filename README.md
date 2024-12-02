@@ -5,3 +5,6 @@ purpose:
 how to use:
 	
 	> run in terminal
+
+todo: 
+	> add options for subtraction, multiplication and division
